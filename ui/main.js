@@ -1,6 +1,6 @@
 console.log('Loaded!');
 //change the main-text
-var element=document.getElementByID('main-text');
+var element=document.getelementByID("main-text");
 element.innerHTML='Hi I am Bhagyashree Rawal. \n This is my first web app.';
 //move the image
 var img1=document.getElementByID('madi');

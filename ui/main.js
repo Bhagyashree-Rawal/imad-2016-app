@@ -11,7 +11,7 @@ function moveRight()
     img1.style.marginLeft=marginLeft + 'px';
 }
 img1.onclick = function() {
-    while(marginLeft<1000)
+    while(marginLeft<10000)
     {var interval=setInterval(moveRight, 50);
     img1.style.marginLeft = '500px';
     }
